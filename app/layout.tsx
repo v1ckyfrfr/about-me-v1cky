@@ -10,6 +10,14 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "About Me - Vicky",
   description: "A colorful personal website",
+  openGraph: {
+    title: "About Me - Vicky",
+    description: "A colorful personal website",
+    url: "https://about-me-vicky.vercel.app/",
+    siteName: "About Me",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
