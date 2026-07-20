@@ -1,26 +1,55 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+
+  --color-brutal-yellow: #ffde59;
+  --color-brutal-pink: #ff90e8;
+  --color-brutal-blue: #90e0ff;
+  --color-brutal-green: #90ff90;
+  --color-brutal-purple: #b290ff;
+  --color-brutal-orange: #ffb347;
+  --color-brutal-bg: #fdfbf7;
+  --color-brutal-text: #111111;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-brutal-bg);
+  color: var(--color-brutal-text);
+  font-family: var(--font-sans);
+}
+
+/* Base Brutalist Styles */
+.brutal-border {
+  border: 3px solid #000;
+}
+
+.brutal-shadow {
+  box-shadow: 6px 6px 0px 0px #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.brutal-shadow:hover {
+  box-shadow: 2px 2px 0px 0px #000;
+  transform: translate(4px, 4px);
+}
+
+.brutal-shadow-sm {
+  box-shadow: 4px 4px 0px 0px #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.brutal-shadow-sm:hover {
+  box-shadow: 1px 1px 0px 0px #000;
+  transform: translate(3px, 3px);
+}
+
+/* Custom selection */
+::selection {
+  background-color: var(--color-brutal-pink);
+  color: #000;
 }
