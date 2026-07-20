@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# About Me - Vicky's Personal Portfolio
 
-## Getting Started
+Welcome to my personal portfolio repository! This website is where I showcase my career journey, skills, certifications, and the projects I've worked on. It is built with a colorful design inspired by the _Neo-Brutalism_ aesthetic.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Hero & About**: A brief introduction about me and my interests in the tech world (Web Development, Linux, Cybersecurity).
+- **Skills**: Highlights the technologies I have mastered (Next.js, React, Node.js, Linux, C, Git, etc.).
+- **Projects Showcase**: A gallery of projects I've built, such as _Vixy-AI_, _Echo-Crypt_, and more.
+- **My Journey**: A timeline of my learning and career path from a _Roblox Scripter_ to diving into _Web Development_ and _Linux_.
+- **Certifications**: A list of certificates from various learning platforms (Coursera, IBM SkillsBuild, Dicoding, etc.).
+- **Contact**: Information on how to get in touch with me.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This website is built using modern web technologies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **UI Library**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Font**: Space Grotesk (Google Fonts)
 
-## Learn More
+## How to Run Locally
 
-To learn more about Next.js, take a look at the following resources:
+If you'd like to run this project on your local machine, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/v1ckyfrfr/about-me-v1cky.git
+   ```
 
-## Deploy on Vercel
+2. **Navigate to the project directory**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   cd about-me-v1cky/about-me
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in Browser**
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## Main Folder Structure
+
+- `app/` - Contains the routing and main pages (Next.js App Router).
+- `app/components/` - Contains reusable UI components separated by sections (Navbar, Hero, About, Projects, etc.).
+- `app/data/` - Contains static data for the portfolio such as skills list, projects, timeline, and certificates (`portfolio.tsx`).
+- `public/Images/` - Contains static image assets for projects and certifications.
+
+## Let's Connect!
+
+Interested in my work or want to collaborate? Feel free to reach out to me through the contact options available on my portfolio website!
+
+---
+
+_Made by v1ckyfrfr_
