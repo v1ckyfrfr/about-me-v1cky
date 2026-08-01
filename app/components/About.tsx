@@ -32,8 +32,7 @@ export default function About() {
             <p>
               I believe in creating software that is not only functional but
               also visually striking and intuitive. When I'm not coding, you can
-              find me reading docs, exploring new frameworks, or contributing to
-              open-source projects.
+              find me reading docs, exploring new frameworks, or learning new courses.
             </p>
           </div>
           <div className="relative aspect-square md:aspect-auto md:h-full bg-[#FFDE59] border-3 border-black brutal-shadow flex items-center justify-center overflow-hidden group p-4 md:p-8">
