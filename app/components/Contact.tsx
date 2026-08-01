@@ -15,7 +15,7 @@ export default function Contact() {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(false);
 
-  const WHATSAPP_NUMBER = "6281287073349"; 
+  const WHATSAPP_NUMBER = "6281287073349";
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
